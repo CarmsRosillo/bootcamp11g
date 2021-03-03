@@ -1,0 +1,123 @@
+*{
+   box-sizing: border-box;
+  
+}
+.espacio-wrapper{
+    width: 100vw;
+    border:3px solid mediumseagreen;
+    height: 50vh;
+    margin-bottom: 10px;
+    padding: 10px;
+  
+}
+.cuadro1{
+    width: 100px;
+    height: 100px;
+    background-color: olivedrab;
+       
+}
+.d-flex{
+    display:flex;
+}
+
+.justify-center{
+    justify-content: center;
+    align-items: center;
+
+}
+.cuadro-rojo{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.cuadro-naranja{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}   
+
+.cuadro-amarillo{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+.cuadro-morado{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+}
+
+.cuadro-verde{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+.cuadro-rosa{
+    width: 100px;
+    height: 100px;
+    background-color: magenta;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.flex-end{
+    align-items: flex-end;
+}
+   
+.d-grid{
+    display: grid;
+}
+
+.flex-start{
+    align-items: flex-start;
+}
+
+.rectangulo-rojo{
+    width: 50px;
+    height: auto;
+    background-color: red;
+}
+.rectangulo-verde{
+    width: 50px;
+    height: auto;
+    background-color: green;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.space-around{
+    justify-content: space-around;
+
+}
+.align-center{
+    align-items: center;
+}
+.stretch{
+    align-items: stretch
+
+}
+.flex.direction{
+    flex-direction: column;
+}
+.rectangulo1{
+    height: 100px;
+    width: 350px;
+    background-color: green;
+}
+.row{
+    flex-direction: row;
+}
+.rectangulo-2{
+    height: 120px;
+    width: 280px;
+    background-color: blue;
+}
+.rectangulo-3{
+    height: 100px;
+    width: 100%;
+    background-color: magenta;
+   
